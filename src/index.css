@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+
+}
+
+.ul li {
+  list-style: none;
+  padding: 1.5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.ul li:hover {
+  background-color: red;
+  border-radius: 0.5rem;
+}
+.homecontainer {
+  background-size: cover;
+  background-image: url(/public/image/bev.jpg);
+  width: 100%;
+  height: 100vh;
+}
+/* homeInfor */
+.homeinfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:17% auto;
+  color: white;
+  width: 60%;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.homeinfo >h1 h2 p{
+  margin: 2rem;
+  padding: 1rem;
+}
+.span{
+  color: red;
+}
+
+/* food container */
+.mainFoodcontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foodcontainer{ 
+  padding: 20px;
+  width: 18rem;
+  box-shadow: 0 3px 10px 0 #000;
+  margin: 15px;
+  border: 2px solid black;
+  height: 10%;
+}
+.foodimage{
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+.foodname{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin: 15px 0;
+  white-space: nowrap;
+}
+.fooddescription{
+  font-size: 16px;
+
+}
+.foodinfor{
+  font-size:16;
+font-weight:500;
+color:black;
+text-transform:capitalize
+}
+.orderbutton{
+  padding: 1rem;
+  width: 100%;
+  background-color: rgb(1, 141, 1);
+}

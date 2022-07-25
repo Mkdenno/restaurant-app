@@ -1,0 +1,192 @@
+{
+    "foods": [
+      {
+        "id": 1,
+        "image":"https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-irio.jpg.webp",
+        "name": "Irio",
+        "description": "Irio means food in the Kikuyu language. It’s made of mashed potatoes, maize, and peas or greens in some variations.",
+        "price":"Ksh.1000"
+
+      },
+      {
+        "id": 2,
+        "image":"https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-sukuma-wiki.jpg.webp",
+        "name": "Sukuma Wiki",
+        "description": "This rustic Kenyan vegetable dish is made chiefly of a leafy vegetable similar to kale called colewort or collared greens, which is sukuma in Swahili. ",
+        "price":"Ksh.200"
+
+        
+      },
+      {
+        "id": 3,
+        "image":"https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-ugali.jpg.webp",
+        "name": "Ugali",
+        "description": "Cornmeal poured into boiling water and consistently mixed until it thickens and reaches a dough-like consistency. ",
+        "price":"Ksh.300"
+
+      },
+      {
+        "id": 4,
+        "image":"https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-githeri.jpg.webp",
+        "name": "Githeri",
+        "description": "Githeri is also a humble dish. Also called muthere or mutheri, githeri is made of maize and beans mixed and stewed in a pot or sufuria. ",
+        "price":"Ksh.350"
+
+      },
+      {
+        "id": 5,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/07/mukimo.jpg.webp",
+        "name": "Mukimo",
+        "description": "It’s made with mashed potatoes and greens with corn and/or beans. It goes well as a side for stews and grilled meat like nyama choma. ",
+        "price":"Ksh.500"
+      },
+      {
+        "id": 6,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-bajias.jpg.webp",
+        "name": "Bhajias",
+        "description": "They’re made with thinly sliced potatoes coated in a gram flour batter seasoned with herbs and spices like cumin, coriander, parsley, chili powder, and ginger. ",
+        "price":"Ksh.300"
+
+      },
+      {
+        "id": 7,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-matoke-stew.jpg.webp",
+        "name": "Matoke",
+        "description": "Matoke refers to both the fruit and the dish made from unripe highland bananas. They’re often prepared in a stew on their own or as part of a heavier meal with beef. ",
+        "price":"Ksh.500"
+
+      },
+      {
+        "id": 8,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "Nyama Choma",
+        "description": " lightly seasoned roasted meat. Goat is the meat of choice for nyama choma but it can be made with beef as well. ",
+        "price":"Ksh.1000"
+
+      },
+      {
+        "id": 9,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-beef-stew.jpg.webp",
+        "name": "Beef stew",
+        "description": "For some, this Kenyan stew made with beef is the ultimate comfort food. It consists of meltingly tender chunks of beef braised in a tomato-coconut broth with garlic, onions,  ",
+        "price":"Ksh.500"
+
+      },
+      {
+        "id": 10,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-chapati.jpg.webp",
+        "name": "Chapati",
+        "description": "Chapati is another Kenyan staple dish derived from Indian cuisine. It refers to a type of unleavened flatbread that’s become popular in Kenya and other countries in East Africa like Uganda, Tanzania, Zanzibar, and Burundi",
+        "price":"Ksh.200"
+
+      },
+      {
+        "id": 11,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-pilau.jpg.webp",
+        "name": "Kenyan Pilau",
+        "description": "It seems that rice meals run aplenty in Kenya, and one of the best-tasting is pilau. It’s a Kenyan staple dish that’s widespread in Eastern Africa. Considered as the Kenyan and more celebrated version of Nigeria’s jollof rice, ",
+        "price":"Ksh.500"
+
+      },
+      {
+        "id": 12,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "French Fries",
+        "description": "They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. ",
+        "price":"Ksh.1000"
+
+      },
+      
+      {
+        "id": 13,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "French Fries",
+        "description": "They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. ",
+        "price":"Ksh.1000"
+
+      },
+            
+      {
+        "id": 14,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "French Fries",
+        "description": "They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. ",
+        "price":"Ksh.1000"
+
+      },
+            
+      {
+        "id": 15,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "French Fries",
+        "description": "They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. ",
+        "price":"Ksh.1000"
+
+      },
+            
+      {
+        "id": 16,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "French Fries",
+        "description": "They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. ",
+        "price":"Ksh.1000"
+
+      },
+            
+      {
+        "id": 17,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "French Fries",
+        "description": "They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. ",
+        "price":"Ksh.1000"
+
+      },
+            
+      {
+        "id": 18,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "French Fries",
+        "description": "They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. ",
+        "price":"Ksh.1000"
+
+      },
+            
+      {
+        "id": 19,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "French Fries",
+        "description": "They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. ",
+        "price":"Ksh.1000"
+
+      },
+      {
+        "id": 20,
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/06/kenyan-food-nyama-choma.jpg.webp",
+        "name": "French Fries",
+        "description": "They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer. ",
+        "price":"Ksh.1000"
+
+      }
+    
+    ],
+    
+    "comments": [
+      {
+        "id": 1,
+        "description": "Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming. You wouldn't call delicious that what is tasteless or unpleasant."
+      },
+      {
+        "id": 1,
+        "description": "Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming. You wouldn't call delicious that what is tasteless or unpleasant."
+      },
+      {
+        "id": 1,
+        "description": "Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming. You wouldn't call delicious that what is tasteless or unpleasant."
+      },
+      {
+        "id": 1,
+        "description": "Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming. You wouldn't call delicious that what is tasteless or unpleasant."
+      }
+    ]
+  }
+  
