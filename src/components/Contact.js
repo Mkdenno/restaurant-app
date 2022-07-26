@@ -15,7 +15,15 @@ function Contact() {
       <label><i><FaTwitter/></i>Twitter</label><br/>
       <label><i><FaLinkedin/></i>LinkedIn</label><br/>
       </Icons>
-
+      <div className='contactForm'>
+        <h1>Leave us a message</h1>
+        <form>
+        <input name='' type='text' placeholder='Name'/><br/><br/>
+        <input name='' type='email' placeholder='Email'/><br/><br/>
+        <textarea type='text'/><br/><br/>
+        <button>Submit</button>
+        </form>
+      </div>
       </ContactUs>
       
     </div>
