@@ -3,6 +3,26 @@ import {FaEnvelope,FaTwitter,FaLinkedin} from 'react-icons/fa'
 import styled from 'styled-components'
 // import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
+
+const ContactUs=styled.div`
+display:flex;
+justify-content:space-around;
+align-items:center;
+height:50vh;
+`
+const Header=styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:3rem;
+
+`
+const Icons=styled.div`
+width:40%;
+background-color:red;
+
+`
+
 function Contact() {
   return (
     <div>
