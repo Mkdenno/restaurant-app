@@ -82,3 +82,55 @@ text-transform:capitalize
   width: 100%;
   background-color: rgb(1, 141, 1);
 }
+
+/* about page */
+.aboutpage{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.aboutimage{
+  width: 40%;
+  display: flex;
+  margin: 4rem;
+}
+.aboutimage img{
+  width: 100%;
+  border-radius: 4rem;
+
+}
+.aboutMore{
+  width: 40%;
+  margin: 1rem;
+}
+.aboutbutton{
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+
+}
+.aboutbutton:hover{
+background-color: red;
+}
+.aboutMore h1{
+  color: red;
+  margin: 0.5rem;
+}
+.aboutMore h2{
+  font-size: 2rem;
+  margin: 0.5rem;
+
+}
+.aboutMore p{
+ font-size: 1rem;
+ margin: 0.5rem;
+
+}
+
+/* foodList */
+.pricecolor{
+  color: red;
+}

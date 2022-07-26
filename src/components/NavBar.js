@@ -37,6 +37,16 @@ function NavBar() {
       >
         <li>MenuList</li>
       </NavLink>
+      {/* <NavLink
+        to="/chef"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        <li>Chef</li>
+      </NavLink> */}
       <NavLink
         to="/comment"
         exact

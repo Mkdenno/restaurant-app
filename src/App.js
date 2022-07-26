@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import About from "./components/About";
 import MenuList from "./components/MenuList"
-import Footer from "./components/Footer";
+// import Chef from './components/Chef'
 const URL = "http://localhost:4000/foods";
 
 
@@ -39,15 +39,7 @@ const Nav = styled.div`
   display: flex;
 `;
 
-const FooterContainer=styled.div`
-display: flex;
-flex-direction: row;
-background-color: black;
-color: white;
-padding: 5rem;
-justify-content: space-between;
-align-items: center;
-`
+
 //fetching from Api
 function App() {
   const [foods, setFoods] = useState([]);
@@ -73,13 +65,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menuList" element={<MenuList foods={foods} />} />
+        {/* <Route path="/chef" element={<Chef />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/comment" element={<Comment />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <FooterContainer>
-      <Footer/>
-      </FooterContainer>
+
     </RestContainer>
   );
 }
