@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   flex-wrap: wrap;
-
 }
 
 .ul li {
@@ -22,32 +21,32 @@
   height: 100vh;
 }
 /* homeInfor */
-.homeinfo{
+.homeinfo {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin:17% auto;
+  margin: 17% auto;
   color: white;
   width: 60%;
   font-weight: 900;
   font-size: 2rem;
 }
-.homeinfo >h1 h2 p{
+.homeinfo > h1 h2 p {
   margin: 2rem;
   padding: 1rem;
 }
-.span{
+.span {
   color: red;
 }
 
 /* food container */
-.mainFoodcontainer{
+.mainFoodcontainer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.foodcontainer{ 
+.foodcontainer {
   padding: 20px;
   width: 18rem;
   box-shadow: 0 3px 10px 0 #000;
@@ -55,82 +54,126 @@
   border: 2px solid black;
   height: 10%;
 }
-.foodimage{
+.foodimage {
   object-fit: cover;
   height: 300px;
   width: 100%;
 }
-.foodname{
+.foodname {
   font-size: 18px;
   font-weight: 600;
   color: black;
   margin: 15px 0;
   white-space: nowrap;
 }
-.fooddescription{
+.fooddescription {
   font-size: 16px;
-
 }
-.foodinfor{
-  font-size:16;
-font-weight:500;
-color:black;
-text-transform:capitalize
+.foodinfor {
+  font-size: 16;
+  font-weight: 500;
+  color: black;
+  text-transform: capitalize;
 }
-.orderbutton{
+.orderbutton {
   padding: 1rem;
   width: 100%;
   background-color: rgb(1, 141, 1);
 }
 
 /* about page */
-.aboutpage{
+.aboutpage {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 100%;
 }
-.aboutimage{
+.aboutimage {
   width: 40%;
   display: flex;
   margin: 4rem;
 }
-.aboutimage img{
+.aboutimage img {
   width: 100%;
   border-radius: 4rem;
-
 }
-.aboutMore{
+.aboutMore {
   width: 40%;
   margin: 1rem;
 }
-.aboutbutton{
+.aboutbutton {
   padding: 1rem;
   border-radius: 1rem;
   font-size: 0.8rem;
   margin: 0.5rem;
-
 }
-.aboutbutton:hover{
-background-color: red;
+.aboutbutton:hover {
+  background-color: red;
 }
-.aboutMore h1{
+.aboutMore h1 {
   color: red;
   margin: 0.5rem;
 }
-.aboutMore h2{
+.aboutMore h2 {
   font-size: 2rem;
   margin: 0.5rem;
-
 }
-.aboutMore p{
- font-size: 1rem;
- margin: 0.5rem;
-
+.aboutMore p {
+  font-size: 1rem;
+  margin: 0.5rem;
 }
 
 /* foodList */
-.pricecolor{
+.pricecolor {
   color: red;
 }
+
+/* footer icons */
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons>
+h1,
+h3,
+label {
+  margin: 1rem;
+  display: flex;
+}
+
+.icons > label {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footericons label{
+  display: flex;
+  flex-direction: column;
+}
+
+/* comment form */
+.forminput{
+  width: 100%;
+  padding: 2rem 0;
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px 0 #000;
+  font-size: 2rem;
+
+}
+form .formbutton{
+  padding: 1rem 3rem;
+  border-radius:1rem;
+  margin-top: 5px;
+  background-color: rgb(1, 141, 1);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+form .formbutton:hover{
+  background-color: red;
+}
+

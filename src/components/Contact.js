@@ -21,7 +21,6 @@ font-size:3rem;
 `
 const Icons=styled.div`
 width:40%;
-background-color:red;
 
 `
 const FooterContainer=styled.div`
@@ -42,7 +41,7 @@ function Contact() {
       <Icons>
         <h1>Contact Information</h1>
       <h3>Nairobi, Kenya</h3>
-      <label><i><FaEnvelope/></i>Email</label><br/>
+      <label><i><FaEnvelope/></i>denniskiprop25@gmail.com</label><br/>
       <label><i><FaTwitter/></i>Twitter</label><br/>
       <label><i><FaLinkedin/></i>LinkedIn</label><br/>
       <label><i><FaMobile/></i>+254715886876</label><br/>
