@@ -1,8 +1,21 @@
 import React from 'react'
+import Footer from './Footer'
+import styled from 'styled-components'
+
+const FooterContainer=styled.div`
+display: flex;
+flex-direction: row;
+background-color: black;
+color: white;
+padding: 5rem;
+justify-content: space-between;
+align-items: center;
+`
 
 function About() {
   return (
-    <div className='aboutpage'>
+    <div>
+         <div className='aboutpage'>
       <div className='aboutimage'>
       <img src='./image/dennis.jpeg' alt='image'/>
       </div>
@@ -15,7 +28,14 @@ function About() {
 
             <button className='aboutbutton'>Learn More</button>
       </div>
+
     </div>
+    <FooterContainer>
+          <Footer/>
+          </FooterContainer>
+    </div>
+ 
+
   )
 }
 
