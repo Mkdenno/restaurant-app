@@ -17,6 +17,28 @@ function Footer() {
 
         </div>
 
+        {/* collum1 */}
+        <div className="col">
+          <h4>ChEF</h4>
+          <ul className="unstyledlist">
+          <li>+Dennis Kiprop</li>
+          <li>Beverlyn Rutto</li>
+          <li>Jerusha Koskei</li>
+          </ul>
+          
+        </div>
+        {/* collum1 */}
+        <div className="col">
+          <h4>Contact Us</h4>
+          <ul className="unstyledlist">
+          <li>Twitter</li>
+          <li>LinkedIn</li>
+          <li>Instagram</li>
+          <li>FaceBook</li>
+          </ul>
+          
+        </div>
+
         </div>
         <hr/>
         <div className="row">
