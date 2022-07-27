@@ -25,7 +25,8 @@ const CommentForm = ({onAddComment}) => {
             },
             body:JSON.stringify(inputData)
         })
-    
+        .then(res=>res.json())
+        .then((addNewComment=>onAddComment(addNewComment)))
 
         setDescription("")
 
