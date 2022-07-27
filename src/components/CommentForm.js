@@ -1,17 +1,25 @@
 import React, {useState} from 'react'
 
+const postUrl='http://localhost:4000/comments'
 
-const CommentForm = () => {
+
+const CommentForm = ({onAddComment}) => {
     const[description,setDescription]=useState()
 
     const handleInput=(event)=>{
         setDescription(event.target.value)
-        console.log(event.target.value)
+        // console.log(event.target.value)
     }
     const handleSubmit=(event)=>{
         event.preventDefault()
+        console.log("submitted successfully")
 
-        fetch()
+        const inputData={
+            description:description
+        }
+
+
+        setDescription("")
 
     }
 
@@ -20,7 +28,7 @@ const CommentForm = () => {
     <div>
         <form onSubmit={handleSubmit}>
             <textarea className='forminput' type='text' placeholder='Leave a comment' name='text' value={description}  onChange={handleInput}/><br/>
-            <button type='button' className='formbutton'>Write</button>
+            <button type="submit" className='formbutton'>Write</button>
         </form>
     </div>
   )

@@ -35,6 +35,7 @@ function Comment() {
     </div>
   ))
 
+
   return (
     <div>
       <Header><h1>Write a comment</h1></Header>
