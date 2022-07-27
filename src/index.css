@@ -130,7 +130,32 @@
 }
 
 /* footer icons */
+.main-footer{
+  height:auto;
+  flex-wrap: wrap;
 
+}
+.container{
+  width: 80vw;
+  color: white;
+  background-color: black;
+
+}
+.row-footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.row .paragraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+hr{
+  margin-top: 2rem;
+}
 
 
 /* comment form */
