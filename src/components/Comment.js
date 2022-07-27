@@ -34,7 +34,9 @@ function Comment() {
 
     </div>
   ))
-
+  const handleAddComment=(addNewComment)=>{
+    setComments([...comments,addNewComment])
+  }
 
   return (
     <div>
