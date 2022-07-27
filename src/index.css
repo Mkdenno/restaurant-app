@@ -87,7 +87,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .aboutimage {
   width: 40%;
@@ -130,30 +130,8 @@
 }
 
 /* footer icons */
-.icons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.icons>
-h1,
-h3,
-label {
-  margin: 1rem;
-  display: flex;
-}
 
-.icons > label {
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.footericons label{
-  display: flex;
-  flex-direction: column;
-}
 
 /* comment form */
 .forminput{

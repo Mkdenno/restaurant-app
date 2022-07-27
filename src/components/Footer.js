@@ -1,50 +1,36 @@
 import React from "react";
-import styled from "styled-components";
-import { FaEnvelope, FaTwitter, FaLinkedin, FaMobile } from "react-icons/fa";
 
-const Icons = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+
 function Footer() {
   return (
-    <Icons className="footericons">
-      <div className="heading">
-        <h1>Contact Information</h1>
-        <h3>Nairobi, Kenya</h3>
-      </div>
-      <label>
-        <i>
-          <FaEnvelope />
-        </i>
-        denniskiprop25@gmail.com
-      </label>
-      <br />
+    // <div className="main-footer">
+      <div className="container">
+        <div className="row-footer">
+        {/* collum1 */}
+        <div className="col">
+          <h4>JollyBee Restaurant</h4>
+          <ul className="unstyledlist">
+          <li>+254715886876</li>
+          <li>Nairobi, Kenya</li>
+          <li>7513, Nairobi</li>
+          </ul>
 
-      <label>
-        <i>
-          <FaTwitter />
-        </i>
-        Twitter
-      </label>
-      <br />
-      <label>
-        <i>
-          <FaLinkedin />
-        </i>
-        LinkedIn
-      </label>
-      <br />
-      <label>
-        <i>
-          <FaMobile />
-        </i>
-        +254715886876
-      </label>
-      <br />
-    </Icons>
-  );
+        </div>
+
+        </div>
+        <hr/>
+        <div className="row">
+          <p className="paragraph">
+            &copy;{new Date().getfullYear} JOLLYBEE RESTAURANT | All rights reserved | Terms of service | Privacy
+          </p>
+
+        </div>
+
+      </div>
+
+    // </div>
+    
+  )
 }
 
 export default Footer;
