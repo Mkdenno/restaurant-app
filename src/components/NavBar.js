@@ -19,21 +19,21 @@ function NavBar() {
     <ListContainer className="ul">
       <NavLink
         to="/"
-        exact
+        exact="true"
         style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
+        // activeStyle={{
+        //   background: "darkblue",
+        // }}
       >
         <li>Home</li>
       </NavLink>
       <NavLink
         to="/menuList"
-        exact
+        exact="true"
         style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
+        // activeStyle={{
+        //   background: "darkblue",
+        // }}
       >
         <li>MenuList</li>
       </NavLink>
@@ -49,32 +49,32 @@ function NavBar() {
       </NavLink> */}
       <NavLink
         to="/comment"
-        exact
+        exact="true"
         style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
+        // activeStyle={{
+        //   background: "darkblue",
+        // }}
       >
         <li>Add comment</li>
       </NavLink>
       <NavLink
         to="/about"
-        exact
+        exact="true"
         style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
+        // activeStyle={{
+        //   background: "darkblue",
+        // }}
       >
         <li>About</li>
       </NavLink>
       
       <NavLink
         to="/contact"
-        exact
+        exact="true"
         style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
+        // activeStyle={{
+        //   background: "darkblue",
+        // }}
       >
         <li>Contact Us</li>
       </NavLink>
