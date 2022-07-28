@@ -2,7 +2,7 @@ import React, { useEffect,useState } from 'react'
 import styled from 'styled-components'
 import CommentForm from './CommentForm'
 
-const commenturl='http://localhost:4000/comments'
+const commenturl='https://slash-olivine-gardenia.glitch.me/foods'
 
 
 const Header=styled.div`
