@@ -34,6 +34,12 @@ align-items: center;
 `
 
 function Contact() {
+  // const sendEmail=(e)=>{
+  //   e.preventDefault()
+  //   emailjs.sendForm("service_v0u8lm6","template_ux67evm",e.target,"user_id")
+  //   .then(res=>console.log(res))
+
+  // }
   return (
     <div>
       <Header>Contact Us</Header>
@@ -48,11 +54,11 @@ function Contact() {
       </Icons>
       <div className='contactForm'>
         <h1>Leave us a message</h1>
-        <form>
-        <input name='' type='text' placeholder='Name'/><br/><br/>
-        <input name='' type='email' placeholder='Email'/><br/><br/>
-        <textarea type='text'/><br/><br/>
-        <button>Submit</button>
+        <form >
+        <input name='name' type='text' placeholder='Name'/><br/><br/>
+        <input name='user_email' type='email' placeholder='Email'/><br/><br/>
+        <textarea name='message' type='text'/><br/><br/>
+        <button type='submit' value="Send">Submit</button>
         </form>
       </div>
       </ContactUs>

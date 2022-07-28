@@ -1,4 +1,6 @@
 import React from "react";
+import {FaEnvelope,FaTwitter,FaLinkedin, FaMobile, FaInstagram} from 'react-icons/fa'
+
 
 
 function Footer() {
@@ -8,9 +10,9 @@ function Footer() {
         <div className="row-footer">
         {/* collum1 */}
         <div className="col">
-          <h4>JollyBee Restaurant</h4>
+          <h2 className="footerh2">JollyBee Restaurant</h2>
           <ul className="unstyledlist">
-          <li>+254715886876</li>
+          <li>664-7474-829</li>
           <li>Nairobi, Kenya</li>
           <li>7513, Nairobi</li>
           </ul>
@@ -19,9 +21,9 @@ function Footer() {
 
         {/* collum1 */}
         <div className="col">
-          <h4>ChEF</h4>
+          <h2 className="footerh2">ChEF</h2>
           <ul className="unstyledlist">
-          <li>+Dennis Kiprop</li>
+          <li>Dennis Kiprop</li>
           <li>Beverlyn Rutto</li>
           <li>Jerusha Koskei</li>
           </ul>
@@ -29,12 +31,13 @@ function Footer() {
         </div>
         {/* collum1 */}
         <div className="col">
-          <h4>Contact Us</h4>
+          <h2 className="footerh2">Contact Us</h2>
           <ul className="unstyledlist">
-          <li>Twitter</li>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
-          <li>FaceBook</li>
+          <li><FaTwitter/>Twitter</li>
+          <li><FaLinkedin/>LinkedIn</li>
+          <li><FaInstagram/>Instagram</li>
+          <li><FaEnvelope/> denniskiprop25@gmail</li>
+          <li><FaMobile/> +254715886876</li>
           </ul>
           
         </div>

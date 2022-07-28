@@ -4,6 +4,7 @@ function MenuList({foods}) {
   const foodDisplay=foods.map((food) => (
     <FoodList
       key={food.id}
+      food={food}
       image={food.image}
       name={food.name}
       description={food.description}
