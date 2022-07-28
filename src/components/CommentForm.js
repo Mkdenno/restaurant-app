@@ -38,6 +38,7 @@ const CommentForm = ({ onAddComment }) => {
           type="text"
           placeholder="Leave a comment"
           name="text"
+          required
           value={description}
           onChange={handleInput}
         />
