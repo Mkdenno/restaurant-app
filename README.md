@@ -8,7 +8,7 @@ This is a restaurant application menu list, It shows a list of dishes that are a
 
 ## Technologies Used
 
--HTML - which was used to develop the structure off the pages.
+-React - To create a single page Application.
 
 -CSS - which was used to style the User Interface.
 
