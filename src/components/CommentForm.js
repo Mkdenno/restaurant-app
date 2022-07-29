@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-const postUrl = "https://slash-olivine-gardenia.glitch.me/comments";
+const postUrl='https://slash-olivine-gardenia.glitch.me/comments'
+
 
 const CommentForm = ({ onAddComment }) => {
   const [description, setDescription] = useState();

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Popup from "reactjs-popup";
 
-function FoodList({food, name, price, description, image }) {
+function FoodList({ name, price, description, image }) {
   // const { name, price, description,image } = foodIt;
   const [isShow, setShow]=useState(false)
 

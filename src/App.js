@@ -8,7 +8,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import MenuList from "./components/MenuList"
 // import Chef from './components/Chef'
-const URL = "http://localhost:4000/foods";
+const URL='https://slash-olivine-gardenia.glitch.me/foods'
+
 
 
 // const url='http://localhost:4000/foods'
