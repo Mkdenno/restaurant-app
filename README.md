@@ -4,6 +4,7 @@ This is a restaurant application menu list, It shows a list of dishes that are a
 
 ## ScreenShot
 ![Screenshot from 2022-07-29 14-54-09](https://user-images.githubusercontent.com/104482846/181753980-545d9bb9-0e32-4e94-9af8-4cd9523d3d7c.png)
+![Screenshot from 2022-07-29 14-54-22](https://user-images.githubusercontent.com/104482846/181754212-c99aebfa-93bb-420e-bdc9-a944b9a510ff.png)
 
 ## Technologies Used
 
