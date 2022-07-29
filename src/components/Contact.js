@@ -5,23 +5,12 @@ import Footer from "./Footer";
 
 // import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
-const ContactUs=styled.div`
-display:flex;
-justify-content:space-around;
-align-items:center;
-height:50vh;
-width:70%;
-margin:auto;
-`
+
 const Header=styled.div`
 display:flex;
 justify-content:center;
 align-items:center;
 font-size:3rem;
-
-`
-const Icons=styled.div`
-width:30%;
 
 `
 const FooterContainer=styled.div`
@@ -44,15 +33,15 @@ function Contact() {
 return (
 <div>
 <Header>Contact Us</Header>
-<ContactUs>
-<Icons className='iconsf'>
+<div className='ContactUs'>
+<div className='iconsf'>
 <h1>Contact Information</h1>
 <h3>Nairobi, Kenya</h3>
 <label><i><FaEnvelope/></i>denniskiprop25@gmail.com</label><br/>
 <label><i><FaTwitter/></i>Twitter</label><br/>
 <label><i><FaLinkedin/></i>LinkedIn</label><br/>
 <label><i><FaMobile/></i>+254715886876</label><br/>
-</Icons>
+</div>
 
 <div className='contactForm'>
 <h1>Leave us a message</h1>
@@ -66,7 +55,7 @@ return (
 <div className='mapping'>
 <img src='./image/map.jpg' alt='image'/>
 </div>
-</ContactUs>
+</div>
 <FooterContainer>
 <Footer/>
 </FooterContainer>
