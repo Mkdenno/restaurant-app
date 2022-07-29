@@ -3,7 +3,8 @@
 This is a restaurant application menu list, It shows a list of dishes that are available for sale in the restaurant or the food that can be served. It can also show the guest dishes availablefor sale along with a short description of each item.
 
 ## ScreenShot
-Screenshot from 2022-07-29 14-54-22.png
+![Screenshot from 2022-07-29 14-54-09](https://user-images.githubusercontent.com/104482846/181753980-545d9bb9-0e32-4e94-9af8-4cd9523d3d7c.png)
+
 ## Technologies Used
 
 -HTML - which was used to develop the structure off the pages.
