@@ -5,12 +5,13 @@ import Footer from "./Footer";
 
 // import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
-
 const ContactUs=styled.div`
 display:flex;
 justify-content:space-around;
 align-items:center;
 height:50vh;
+width:70%;
+margin:auto;
 `
 const Header=styled.div`
 display:flex;
@@ -20,7 +21,7 @@ font-size:3rem;
 
 `
 const Icons=styled.div`
-width:40%;
+width:30%;
 
 `
 const FooterContainer=styled.div`
@@ -34,40 +35,43 @@ align-items: center;
 `
 
 function Contact() {
-  // const sendEmail=(e)=>{
-  //   e.preventDefault()
-  //   emailjs.sendForm("service_v0u8lm6","template_ux67evm",e.target,"user_id")
-  //   .then(res=>console.log(res))
+// const sendEmail=(e)=>{
+// e.preventDefault()
+// emailjs.sendForm("service_v0u8lm6","template_ux67evm",e.target,"user_id")
+// .then(res=>console.log(res))
 
-  // }
-  return (
-    <div>
-      <Header>Contact Us</Header>
-      <ContactUs>
-      <Icons>
-        <h1>Contact Information</h1>
-      <h3>Nairobi, Kenya</h3>
-      <label><i><FaEnvelope/></i>denniskiprop25@gmail.com</label><br/>
-      <label><i><FaTwitter/></i>Twitter</label><br/>
-      <label><i><FaLinkedin/></i>LinkedIn</label><br/>
-      <label><i><FaMobile/></i>+254715886876</label><br/>
-      </Icons>
-      <div className='contactForm'>
-        <h1>Leave us a message</h1>
-        <form >
-        <input name='name' type='text' placeholder='Name'/><br/><br/>
-        <input name='user_email' type='email' placeholder='Email'/><br/><br/>
-        <textarea name='message' type='text'/><br/><br/>
-        <button type='submit' value="Send">Submit</button>
-        </form>
-      </div>
-      </ContactUs>
-      <FooterContainer>
-      <Footer/>
-      </FooterContainer>
-      
-    </div>
-  )
+// }
+return (
+<div>
+<Header>Contact Us</Header>
+<ContactUs>
+<Icons className='iconsf'>
+<h1>Contact Information</h1>
+<h3>Nairobi, Kenya</h3>
+<label><i><FaEnvelope/></i>denniskiprop25@gmail.com</label><br/>
+<label><i><FaTwitter/></i>Twitter</label><br/>
+<label><i><FaLinkedin/></i>LinkedIn</label><br/>
+<label><i><FaMobile/></i>+254715886876</label><br/>
+</Icons>
+
+<div className='contactForm'>
+<h1>Leave us a message</h1>
+<form >
+<input name='name' type='text' placeholder='Name'/><br/><br/>
+<input name='user_email' type='email' placeholder='Email'/><br/><br/>
+<textarea name='message' type='text'/><br/><br/>
+<button type='submit' value="Send">Submit</button>
+</form>
+</div>
+<div className='mapping'>
+<img src='./image/map.jpg' alt='image'/>
+</div>
+</ContactUs>
+<FooterContainer>
+<Footer/>
+</FooterContainer>
+</div>
+)
 }
 
 export default Contact

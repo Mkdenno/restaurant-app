@@ -11,10 +11,19 @@ padding: 5rem;
 justify-content: space-between;
 align-items: center;
 `
+const Header=styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:3rem;
+
+`
 
 function About() {
   return (
     <div>
+      <Header>About Us</Header>
+
          <div className='aboutpage'>
       <div className='aboutimage'>
       <img src='./image/dennis.jpeg' alt='image'/>

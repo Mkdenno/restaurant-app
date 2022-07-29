@@ -58,39 +58,39 @@
 }
 .foodcontainer {
   padding: 20px;
-  width: 18rem;
+  width: 19rem;
   box-shadow: 0 3px 10px 0 #000;
   margin: 15px;
   border: 2px solid black;
-  height: 10%;
+  height: 20%;
 }
 .foodimage {
   object-fit: cover;
-  height: 300px;
+  height: 250px;
   width: 100%;
 }
 .foodname {
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 600;
   color: black;
   margin: 15px 0;
-  white-space: nowrap;
 }
 .fooddescription {
   font-size: 16px;
 }
 .foodinfor {
-  font-size: 16;
-  font-weight: 500;
+  font-size: 10px;
   color: black;
-  text-transform: capitalize;
+}
+.orderbutton{
+  display: flex;
+  justify-content: space-between;
 }
 .orderbutton button {
-  padding: 1rem;
-  width: 100%;
+  padding: 0.5rem;
   background-color: rgb(1, 141, 1);
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
 }
  button.order {
@@ -100,6 +100,13 @@
  button.ordered {
   background-color: green;
 }
+.loveEmoji{
+  font-size:35px;
+  color: red;
+}
+.activated-heart {
+  color: red;
+}
 
 /* about page */
 .aboutpage {
@@ -107,7 +114,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
 }
 .aboutimage {
   width: 40%;
@@ -249,3 +256,35 @@ form .formbutton:hover{
   color: var(--white);
   font-size: 1.25rem;
 }
+
+/* contact page */
+
+.iconsf{
+  width: 30%;
+  }
+  .iconsf h1{
+  color: red;
+  font-weight: 900;
+  
+  }
+  .iconsf label i{
+  padding: 1rem;
+  margin: 20px;
+  }
+  .contactForm{
+  width: 30%;
+  }
+  .contactForm ,input,textarea{
+  margin: 0.6rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  
+  }
+  .contactForm button{
+  padding: 0.7rem 2em;
+  border-radius: 10px;
+  }
+  .contactForm button:hover{
+  background-color: red;
+  }
+  
