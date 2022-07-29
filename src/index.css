@@ -3,6 +3,11 @@
   margin: 0;
   flex-wrap: wrap;
 }
+:root {
+  --primary: #0d0d0e;
+  --secondary: #21d07a;
+  --white: #fff;
+}
 
 .ul li {
   list-style: none;
@@ -41,6 +46,11 @@
 }
 
 /* food container */
+.bothfoodsearch{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .mainFoodcontainer {
   display: flex;
   align-items: center;
@@ -224,71 +234,18 @@ form .formbutton:hover{
   height: 230vh;
 
 } */
-/* .overLay */
-.overLay{
-  min-height: 100vh;
+/* .Search */
+.add-content {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.add-content .input-wrapper input {
   width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0,1));
-  display: flex;
-  align-items: center;
-  justify-content:center;
-}
-.overlay-inner{
-  background: red;
-  width: 400px;
-  height: 350px;
-  padding: 1.5rem;
-  position: relative;
-  box-sizing: border-box;
-  overflow: hidden;
-  font-size: 1.3rem;
-  /* display: none; */
-
-
-}
-.overlay-inner .close{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  outline: none;
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 5px;
   border: none;
-  font-size: 10px;
-  background-color: transparent;
+  color: var(--white);
+  font-size: 1.25rem;
 }
-.overlay-inner .inner-box{
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-.overlay-inner .inner-box img{
-  margin-right: 20px;
-  width: 70px;
-  height: 100px;
-}
-.overlay-inner .inner-box h3{
-  margin-top: 5px;
-  color: green;
-}
-.overlay-inner .inner-box h4{
-  color: blue;
-}
-.overlay-inner .inner-box button{
-  outline: none;
-  border: none;
-  width: 50px;
-  background-color: green;
-  color:white;
-  font-weight: bold;
-  padding: 0.3rem 0.5rem;
-}
-.overlay-inner .description{
-  margin-top: 1rem;
-  text-align: justify;
-  font-size:10px ;
-}
-

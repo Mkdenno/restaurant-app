@@ -1,5 +1,6 @@
 import React from "react";
 import FoodList from "./FoodList";
+import Search from "./Search";
 
 function MenuList({foods}) {
 
@@ -16,8 +17,13 @@ function MenuList({foods}) {
   ))
 
   return (
+    <div className="bothfoodsearch">
+      <div>
+        <Search />
+      </div>
     <div className="mainFoodcontainer">
       {foodDisplay}
+    </div>
     </div>
   );
 }
